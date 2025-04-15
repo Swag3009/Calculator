@@ -1,0 +1,65 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    background-color: #ecf0f1;
+    color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: snow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 15px;
+}
+button{
+    margin: 5px;
+    padding: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: solid 0px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: scale 5s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: scale 5s ease-in-out;
+}
+.output{
+    border: 2px solid #aaa;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+.button-container{
+    display: flex;
+    gap: 0.5rem;
+}
+.number-button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+.operation-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+.number{
+    background-color: lightgray;
+}
+.operation{
+    background-color: palevioletred;
+}
