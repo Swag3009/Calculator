@@ -63,3 +63,11 @@ button:active {
 .operation{
     background-color: palevioletred;
 }
+.raised-to{
+    font-size: 0.6rem;
+    
+}
+sup{
+    font-size: 0.8rem;
+    font-weight: normal;
+}
